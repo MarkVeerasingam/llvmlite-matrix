@@ -1,6 +1,8 @@
 import numpy as np
 from ctypes import c_void_p, c_longlong, Structure
 
+# Learn about Numpy arrays here
+# https://www.stephendiehl.com/posts/mlir_memory/
 
 class MemRefDescriptor(Structure):
     """Structure matching MLIR's MemRef descriptor"""
@@ -12,7 +14,6 @@ class MemRefDescriptor(Structure):
         ("shape", c_longlong * 1),  # Array shape (1D in this case)
         ("stride", c_longlong * 1),  # Strides in elements
     ]
-
 
 def numpy_to_memref(arr):
     """Convert a NumPy array to a MemRef descriptor"""
