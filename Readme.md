@@ -11,6 +11,7 @@ Please Read.
 
 This will be a big step up from the LLVM we have been writing but I have no doubt you guys are up to the challenge :) 
 
+to run the python file, execute the run.py - main project entry point.
 ---
 
 ## Goals
