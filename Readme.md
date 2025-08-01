@@ -23,9 +23,9 @@ to run the python file, execute the run.py - main project entry point.
   - `vector_div.ll`
 - Update your engine.py in accordance 
     - You might realise the project structure is not to your liking and it gets messy in one file. I encourage you to seperate out files!
-- If you can get to the above step, you have done outstanding work!, If you want to extend functionality - extend your work to handle 2D and 3D arrays (matrices and tensors).
-    - numpy_array_layout.py is 1d, you would need to expand it be 2d and 3d.
-
+- If you can get to the above step, you have done outstanding work!, If you want to extend functionality, somde ideas below...
+    - numpy_array_layout.py is 1d, you would need to expand it be 2d and 3d arrays/matrices
+    - Right now the program is hardcoded to the vector vallues assigned in engine.py, you could extend to take user inputs?
 ---
 
 ## Why this project?
